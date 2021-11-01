@@ -1,0 +1,59 @@
+commit 6e135e94ea9ca16dabcd17e06f0802e5e02fdfe2
+Author: B119584-2021 <email_not_provided>
+Date:   Mon Nov 1 10:41:11 2021 +0000
+
+    Files have been placed in CodeFiles and are zipped
+
+commit a927d464b9ca248ec3cf4274bddceb5c7689c9e6
+Author: B119584-2021 <email_not_provided>
+Date:   Mon Nov 1 10:23:12 2021 +0000
+
+    added the overarching script which sources the scripts in bash_scripts
+
+commit 552852ca45eff51ce03111c4119f04e3a91a7b0c
+Author: B119584-2021 <email_not_provided>
+Date:   Mon Nov 1 10:15:53 2021 +0000
+
+    did some formatting to make code more readable, added some comments
+
+commit 8bbf659f4a896171f122f588ce86fd6787478fcd
+Author: B119584-2021 <email_not_provided>
+Date:   Mon Nov 1 10:11:57 2021 +0000
+
+    remove the copy of the sequence alignment script
+
+commit 8a0ef7f9e0d58e255a18b1493b44f1bed71f5863
+Author: B119584-2021 <email_not_provided>
+Date:   Mon Nov 1 10:11:02 2021 +0000
+
+    did some formatting and checked the file paths again
+
+commit a7e12f01ccc7f96f29328a94e886f05fcc8707cc
+Author: B119584-2021 <email_not_provided>
+Date:   Mon Nov 1 10:07:59 2021 +0000
+
+    changed name from align_to_bowtie2 to sequence_aligment as the script also contains processes for samtools, bedtools etc.
+
+commit 552b8a60a397a5a7f6b70172add3603fee42852a
+Author: B119584-2021 <email_not_provided>
+Date:   Mon Nov 1 08:22:48 2021 +0000
+
+    add add script to generate fold change data
+
+commit c2e11002eca2f2450821618e6e50aacf2572ecd0
+Author: B119584-2021 <email_not_provided>
+Date:   Sun Oct 31 19:40:49 2021 +0000
+
+    add generate_read_counts.sh script which aims to generate the read counts file
+
+commit f0b7bd248a65a56275dabbd04f6b0101781bb35a
+Author: B119584-2021 <email_not_provided>
+Date:   Sun Oct 31 19:39:37 2021 +0000
+
+    add script align_to_bowtie2.sh, carries out all the alignment steps and generates bedfiles with read counts
+
+commit 773392fe9e3f890b96a335cbb786e245310660f2
+Author: B119584-2021 <email_not_provided>
+Date:   Sun Oct 31 19:37:50 2021 +0000
+
+    add script quality_check.sh for fastqc analysis
